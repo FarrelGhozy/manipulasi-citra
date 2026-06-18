@@ -44,9 +44,7 @@ manipulasi-citra-digital/
 ├── report/
 │   └── laporan.pdf
 ├── README.md
-├── requirements.txt
-├── planning.md
-└── agents.md
+└── requirements.txt
 ```
 
 ## Ringkasan Hasil Eksperimen
