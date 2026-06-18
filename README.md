@@ -3,9 +3,12 @@
 **Mata Kuliah:** Pengolahan Sinyal Digital
 
 ## Identitas Mahasiswa
-- **Nama:** [Isi nama mahasiswa]
-- **NIM:** [Isi NIM]
-- **Program Studi:** [Isi prodi]
+- **Nama:** Farrel Ghozy Affifudin
+- **NIM:** 452024611053
+- **Kelas:** TI5 A2
+- **Program Studi:** Teknik Informatika
+- **Fakultas:** Sains dan Teknologi
+- **Universitas:** Universitas Darussalam Gontor
 
 ## Deskripsi
 Proyek ini berisi eksperimen manipulasi citra digital menggunakan Python dan OpenCV. Tugas ini mencakup 8 teknik manipulasi citra: membaca dan menampilkan citra, konversi warna BGR ke RGB, resize, image blending, image negative, transformasi logaritmik, transformasi gamma, serta analisis efek setiap transformasi terhadap kualitas citra.
@@ -55,6 +58,9 @@ manipulasi-citra-digital/
 | D | Image Negative | Citra negatif berhasil dibuat, histogram tercermin (mirror) pada sumbu horizontal |
 | E | Transformasi Logaritmik | Area gelap diperkuat, area terang dikompresi - efektif untuk detail di area gelap |
 | F | Transformasi Gamma | 4 nilai gamma (0.5, 1, 2, 2.5) diuji: γ<1 terang, γ=1 identik, γ>1 gelap |
+
+## Laporan
+Laporan PDF tersedia di `report/laporan.pdf` (8 halaman, format LaTeX).
 
 ## Kesimpulan
 Setiap teknik manipulasi citra memiliki kelebihan dan kekurangan masing-masing. Transformasi gamma adalah teknik yang paling fleksibel karena dapat digunakan untuk mencerahkan (γ<1) maupun menggelapkan (γ>1) citra. Transformasi logaritmik sangat efektif untuk meningkatkan detail pada area gelap. Image blending berguna untuk menggabungkan dua citra, dan image negative bermanfaat untuk analisis medis dan efek kreatif. Pemilihan teknik yang tepat bergantung pada karakteristik citra dan tujuan yang ingin dicapai.
